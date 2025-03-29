@@ -1,9 +1,16 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "todos": [
+    {
+      "id": 1,
+      "title": "Buy groceries",
+      "description": "Milk, eggs, and bread",
+      "done": false
+    },
+    {
+      "id": 2,
+      "title": "Study React",
+      "description": "Practice useState and useEffect hooks",
+      "done": true
+    }
+  ]
 }
